@@ -185,8 +185,7 @@ int main()
 		glUseProgram(shaderProgram);
 		glBindVertexArray(VAO);
 
-		glUseProgram(shaderProgram);
-		glBindVertexArray(VAO);
+		
 		glDrawArrays(GL_TRIANGLES, 0, 3);
 		glBindVertexArray(0);
 
